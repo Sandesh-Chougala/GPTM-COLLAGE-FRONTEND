@@ -1,71 +1,128 @@
+/* Modern Responsive Style for faculty.html */
 * {
     margin: 0;
     padding: 0;
-    text-decoration: none;
     box-sizing: border-box;
-    color: black;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #222;
+    line-height: 1.6;
 }
 
 .nav-bar {
     width: 100%;
-    height: 60px;
+    height: auto;
+    background-color: #e8edee;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    background-color: rgb(232, 237, 238);
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .nav-logo {
     width: 50px;
-    margin-left: 40px;
     height: 48px;
+    margin-right: 15px;
 }
 
 .nav-head {
-    margin-left: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.nav-links {
-    margin-left: 260px;
-}
-
-.sub-nav {
-    color: black;
-    font-size: 20px;
-    margin-left: 40px;
-}
-
-
-/*table stying*/
-.cse-facility h2 {
-    text-align: center;
-    margin-top: 50px;
-    font-size: 30px;
-}
-
-.cse-facility table {
-    width: 100%;
-    border-collapse: collapse;
-    width: 60%;
-    height: 300px;
-    margin-left: 20%;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.text-hover:hover {
-    border-bottom: 3px solid red;
-}
-
-.table-head {
-    background-color: rgb(210, 222, 224);
+    flex: 1;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
-footer {
-    padding: 20px;
-    color: white;
-    background-color: gray;
-    margin-top: 60px;
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.sub-nav {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sub-nav:hover {
+    border-bottom: 2px solid #007BFF;
+}
+
+.cse-facility {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.cse-facility h2 {
     text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto 30px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.table-head {
+    background-color: #e0e0e0;
+    font-weight: bold;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-head {
+        font-size: 18px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .sub-nav {
+        margin: 5px 0;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    .cse-facility h2 {
+        font-size: 1.3rem;
+    }
 }

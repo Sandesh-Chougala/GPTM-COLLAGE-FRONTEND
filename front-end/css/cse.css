@@ -1,103 +1,129 @@
+/* Modern Responsive Style for CSE/EC/CE pages */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 body {
-    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #222;
+    line-height: 1.6;
 }
-
-/*nav bar styling*/
 
 .nav-bar {
     width: 100%;
-    height: 60px;
+    height: auto;
+    background-color: #e8edee;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    background-color: rgb(232, 237, 238);
-}
-
-.text-hover:hover {
-    border-bottom: 3px solid red;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .nav-logo {
     width: 50px;
-    margin-left: 40px;
     height: 48px;
+    margin-right: 15px;
 }
 
 .nav-head {
-    margin-left: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex: 1;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .nav-links {
-    margin-left: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .sub-nav {
-    color: black;
-    font-size: 20px;
-    margin-left: 40px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sub-nav:hover {
+    border-bottom: 2px solid #007BFF;
+}
+
+/* Section Content Styling */
+.cse-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: justify;
 }
 
 .cse-head {
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 2rem;
     text-align: center;
-    margin-bottom: 30px;
-    margin-top: 60px;
-    color: black;
+    margin-bottom: 20px;
+    color: #007BFF;
 }
 
 .cse-text {
-    font-size: 25px;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    color: black;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #333;
 }
 
-.vision-head {
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 90px;
-    color: black;
-}
-
-.text-hover:hover {
-    border-bottom: 3px solid red;
-}
-
-.vision-content {
-    font-size: 25px;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    color: black;
-}
-
+.vision-head,
 .mission-head {
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 1.8rem;
     text-align: center;
-    margin-bottom: 30px;
-    margin-top: 90px;
-    color: black;
+    margin-top: 40px;
+    color: #007BFF;
 }
 
+.vision-content,
 .mission-content {
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 1rem;
+    text-align: justify;
+    margin: 20px 0;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
     text-align: center;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    color: black;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-head {
+        font-size: 18px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .sub-nav {
+        margin: 5px 0;
+    }
+
+    .cse-head,
+    .vision-head,
+    .mission-head {
+        font-size: 1.5rem;
+    }
+
+    .cse-text,
+    .vision-content,
+    .mission-content {
+        font-size: 0.95rem;
+    }
 }

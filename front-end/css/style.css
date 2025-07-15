@@ -271,3 +271,24 @@ footer {
     color: white;
     text-align: center;
 }
+
+@media (max-width: 1458px) {
+    .nav-links {
+        margin-left: 200px;
+    }
+
+    .nav-logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav-head {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .sub-nav {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+}

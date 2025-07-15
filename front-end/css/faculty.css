@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(232, 237, 238);
+}
+
+.nav-logo {
+    width: 50px;
+    margin-left: 40px;
+    height: 48px;
+}
+
+.nav-head {
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-links {
+    margin-left: 260px;
+}
+
+.sub-nav {
+    color: black;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+
+/*table stying*/
+.cse-facility h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.cse-facility table {
+    width: 100%;
+    border-collapse: collapse;
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text-hover:hover {
+    border-bottom: 3px solid red;
+}
+
+.table-head {
+    background-color: rgb(210, 222, 224);
+    font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: gray;
+    margin-top: 60px;
+    text-align: center;
+}

@@ -13,6 +13,11 @@ body {
     padding: 0;
 }
 
+.nav-head a{
+    color: black;
+    text-decoration: none;
+}
+
 .nav-bar {
     width: 100%;
     height: auto;
@@ -67,6 +72,40 @@ body {
     margin-bottom: 20px;
     color: #007BFF;
 }
+
+.nav-links button {
+    background: none;
+    border: none;
+    color: black;
+    font-weight: 600;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.selection{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.443);
+    position: absolute;
+    display: none;
+    top: 80px;
+    left: 1050px;
+}
+
+.selection button{
+    background-color: transparent;
+    border: none;
+}
+
+#cse, #ec, #ce, #me {
+    width: 100%;
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 
 .Principal-Message p,
 .history p {

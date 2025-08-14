@@ -12,17 +12,19 @@
 <body>
     <header>
         <div class="nav-bar">
-            <div class="clg-logo">
-                <img src="../image/logo.png" alt="clg-logo" class="nav-logo">
-            </div>
-            <h1 class="nav-head">GOVERNMENT POLYTECHNIC MUDHOL</h1>
+            <a href="../../index.html">
+                <div class="clg-logo">
+                    <img src="../image/logo.png" alt="clg-logo" class="nav-logo">
+                </div>
+            </a>
+            <h1 class="nav-head"><a href="../../index.html">GOVERNMENT POLYTECHNIC MUDHOL</a></h1>
             <div class="nav-links ">
-                <a href="/" class="sub-nav text-hover">Home</a>
-                <a href="../html/facility.html" class="sub-nav text-hover">Faculty</a>
-                <a href="./login.html" class="sub-nav text-hover">Login</a>
-                <a href="#course" class="sub-nav text-hover">Course</a>
-                <a href="../html/galary.html" class="sub-nav text-hover">Gallery</a>
+                <a href="../../index.html" class="sub-nav text-hover">Home</a>
                 <a href="./about.html" class="sub-nav text-hover">About </a>
+                <a href="./galary.html" class="sub-nav text-hover">Gallery</a>
+                <button class="sub-nav text-hover" onclick="change()">Course</button>
+                <a href="./placement.html" class="sub-nav text-hover">Placements</a>
+                <a href="./contact.html" class="sub-nav text-hover">Contact-Us</a>
             </div>
         </div>
     </header>
@@ -33,6 +35,12 @@
                 <p>Empowering Education, Inspiring Futures</p>
                 <a href=" ./about.html" class="hero-button">Learn More</a>
             </div>
+        </div>
+        <div class="selection" id="selection">
+            <button id="cse">Computer Science and Engineering</button>
+            <button id="ec">Electronics and Communication Engineering</button>
+            <button id="ce">Civil Engineering</button>
+            <button id="me">Mechanical Engineering</button>
         </div>
         <h1 class="course-head">Course We Provide</h1>
         <div class="course box">
@@ -79,6 +87,35 @@
                 </ul>
             </div>
         </div>
+        <div class="Principal-Message">
+            <h1>Principal Message</h1>
+            <p>It is my immense pleasure to invite the aspiring students who are keen to make a best career in technical
+                field with an aim to become techno-supervisor in manufacturing area of diverse range of industrial
+                products.<br>
+                <br>
+                The Diploma holders play very important roles in industrial and economic developments of the country.
+                They acquire specialized skill in the chosen areas and provide much needed supports in any engineering
+                establishments. Besides, the Students with Diploma in Engineering also provide support services in
+                various other sectors of economy including service sector.<br>
+                <br>
+                It is well established that our country needs large number of skilled manpower to keep pace of current
+                and future requirements. The Diploma holders are most sought after these days and they are quickly
+                employed in any industry.<br>
+                <br>
+                We, at Government Polytechnic, MUDHOL, take every care to meet the level of aspirations of all students
+                by providing best physical and academic infrastructure needed to make them competent technical
+                professionals. Our quality faculty adds value to our best endeavor in providing technical trainings to
+                our students in the interest of all the stake holders in the country.<br>
+                <br>
+                I welcome you all to join our institute and make a best career in life.<br>
+                <br>
+                Shri. Mohankumar D Mtech(Env),PGDTCA,MIE,MISTE<br>
+                <br>
+                Principal (I/C)<br>
+                <br>
+                Government Polytechnic, Mudhol<br>
+            </p>
+        </div>
         <h1 class="extra-head">Extra Curriculum Activity</h1>
         <div class="extra-actiivity">
             <div class="redcross extra ">
@@ -114,7 +151,7 @@
             <p>&copy; 2025 Government Polytechnic Mudhol. All rights reserved, This website created by Sandesh</p>
         </div>
         <script src="../js/script.js"></script>
-    </footer>
+        <script src="../js/course.js"></script>
 </body>
 
 </html>

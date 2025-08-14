@@ -2,12 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f9f9f9;
     color: #222;
+}
+
+.Principal-Message {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.Principal-Message h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+.Principal-Message p{
+    font-size: 1rem;
+    color: #333;
 }
 
 .nav-bar {
@@ -21,6 +41,7 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
 .nav-logo {
     width: 50px;
     height: 48px;
@@ -29,8 +50,14 @@ body {
 
 .nav-head {
     flex: 1;
+    color: black;
     font-size: 1.3rem;
     font-weight: bold;
+}
+
+.nav-head a{
+    color: black;
+    text-decoration: none;
 }
 
 .nav-links {
@@ -56,6 +83,39 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.nav-links button {
+    background: none;
+    border: none;
+    color: black;
+    font-weight: 600;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.selection{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.443);
+    position: absolute;
+    display: none;
+    top: 80px;
+    left: 1050px;
+}
+
+.selection button{
+    background-color: transparent;
+    border: none;
+}
+
+#cse, #ec, #ce, #me {
+    width: 100%;
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .hero-content h1 {

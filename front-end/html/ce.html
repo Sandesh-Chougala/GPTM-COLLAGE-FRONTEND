@@ -12,18 +12,26 @@
 <body>
     <header>
         <div class="nav-bar">
-            <div class="clg-logo">
-                <img src="../image/logo.png" alt="clg-logo" class="nav-logo">
-            </div>
-            <h1 class="nav-head">GOVERNMENT POLYTECHNIC MUDHOL</h1>
+            <a href="../../index.html">
+                <div class="clg-logo">
+                    <img src="../image/logo.png" alt="clg-logo" class="nav-logo">
+                </div>
+            </a>
+            <h1 class="nav-head"><a href="../../index.html">GOVERNMENT POLYTECHNIC MUDHOL</a></h1>
             <div class="nav-links ">
-                <a href="./index.html" class="sub-nav text-hover">Home</a>
-                <a href="../html/facility.html" class="sub-nav text-hover">Faculty</a>
-                <a href="./login.html" class="sub-nav text-hover">Login</a>
-                <a href="../html/index.html#course" class="sub-nav text-hover">Course</a>
-                <a href="../html/galary.html" class="sub-nav text-hover">Gallery</a>
+                <a href="../../index.html" class="sub-nav text-hover">Home</a>
                 <a href="./about.html" class="sub-nav text-hover">About </a>
+                <a href="./galary.html" class="sub-nav text-hover">Gallery</a>
+                <button class="sub-nav text-hover" onclick="change()">Course</button>
+                <a href="./placement.html" class="sub-nav text-hover">Placements</a>
+                <a href="./contact.html" class="sub-nav text-hover">Contact-Us</a>
             </div>
+        </div>
+        <div class="selection" id="selection">
+            <button id="cse">Computer Science and Engineering</button>
+            <button id="ec">Electronics and Communication Engineering</button>
+            <button id="ce">Civil Engineering</button>
+            <button id="me">Mechanical Engineering</button>
         </div>
     </header>
     <main>
@@ -50,6 +58,7 @@
             </div>
         </div>
     </main>
+    <script src="../js/course.js"></script>
 </body>
 
 </html>

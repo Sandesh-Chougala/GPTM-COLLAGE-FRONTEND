@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.hod-msg, .hod-img {
+    flex: 1;
+    min-height: 500px;
+    padding: 20px;
+}
+
+.hod-msg{
+    margin-left: 30px;
+}
+
+.hod-photo {
+    background-image: url(../image/HOD-IMG/cse-hod.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+.hod-msg h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.hod-img h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 600;
+}

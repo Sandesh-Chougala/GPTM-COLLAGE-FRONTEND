@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/nav-bar.css">
+    <link rel="stylesheet" href="../../css/hos-msg.css">
+    <link rel="stylesheet" href="../../css/drop-menu.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CSE | HOD MSG</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <a href="../../../index.html">
+                <div class="clg-logo">
+                    <img src="../../image/logo.png" alt="clg-logo" class="nav-logo">
+                </div>
+            </a>
+            <h1 class="nav-head"><a href="../../../index.html">GOVERNMENT POLYTECHNIC MUDHOL</a></h1>
+            <div class="nav-links ">
+                <a href="../../../index.html" class="sub-nav text-hover">Home</a>
+                <a href="../about.html" class="sub-nav text-hover">About </a>
+                <a href="../galary.html" class="sub-nav text-hover">Gallery</a>
+                <button class="sub-nav text-hover" onclick="change()">Course</button>
+                <a href="../placement.html" class="sub-nav text-hover">Placements</a>
+                <a href="../contact.html" class="sub-nav text-hover">Contact-Us</a>
+            </div>
+        </div>
+        <div class="cse-select" id="cse1">
+            <button><i class="fa-solid fa-angle-left"></i><a href="./mision-vision.html">Mission and
+                    vision</button></a>
+            <button><a href="./hos-msg.html">HOD Message</a></button>
+            <button><a href="./teachfaculty.html">Teaching Faculty</a></button>
+            <button><a href="./non-teach.html">Non-Teaching Faculty</a></button>
+            <button><a href="./gallary.html">Gallery</a></button>
+            <button><a href="./campass.html">Compass</a></button>
+        </div>
+
+        <div class="ec1" id="ec1">
+            <button><a href="../ec/mision-vision.html">Mission and vision</button></a>
+            <button><i class="fa-solid fa-angle-left"></i><a href="../ec/hos-msg.html">HOD Message</a></button>
+            <button><a href="../ec/teachfaculty.html">Teaching Faculty</a></button>
+            <button><a href="../ec/non-teach.html">Non-Teaching Faculty</a></button>
+            <button><a href="../ec/gallary.html">Gallery</a></button>
+            <button><a href="../ec/campass.html">Compass</a></button>
+        </div>
+
+        <div class="ce1" id="ce1">
+            <button><a href="../ce/mision-vision.html">Mission and vision</button></a>
+            <button><a href="../ce/hos-msg.html">HOD Message</a></button>
+            <button><i class="fa-solid fa-angle-left"></i><a href="../ce/teachfaculty.html80">Teaching
+                    Faculty</a></button>
+            <button><a href="../ce/non-teach.html">Non-Teaching Faculty</a></button>
+            <button><a href="../ce/gallary.html">Gallery</a></button>
+            <button><a href="../ce/campass.html">Compass</a></button>
+        </div>
+
+        <div class="me1" id="me1">
+            <button><a href="../me/mision-vision.html">Mission and vision</button></a>
+            <button><a href="../me/hos-msg.html">HOD Message</a></button>
+            <button><a href="../me/teachfaculty.html">TeachingFaculty</a></button>
+            <button><i class="fa-solid fa-angle-left"></i><a href="../me/non-teach.html">Non-Teaching
+                    Faculty</a></button>
+            <button><a href="../me/gallary.html">Gallery</a></button>
+            <button><a href="../me/campass.html">Compass</a></button>
+        </div>
+        <div class="selection" id="selection">
+            <button id="cse" onclick="cse()">Computer Science and Engineering</button>
+            <button id="ec" onclick="ece()">Electronics and Communication Engineering</button>
+            <button id="ce" onclick="ce()">Civil Engineering</button>
+            <button id="me" onclick="me()">Mechanical Engineering</button>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="hod-msg">
+                <h1>Message from the Head of Department(CSE)</h1>
+                <p>
+                    Welcome to the Department of Computer Science and Engineering!<br>
+                    In a world driven by innovation and digital transformation, our department stands at the forefront
+                    of shaping future technologists, thinkers, and leaders. At CSE, we believe that education is not
+                    just about mastering algorithms or writing efficient code—it's about cultivating curiosity,
+                    creativity, and a mindset of lifelong learning.<br>
+                    <br>
+                    Our curriculum is designed to blend strong theoretical foundations with hands-on experience in
+                    cutting-edge technologies like Artificial Intelligence, Machine Learning, Cybersecurity, Data
+                    Science, and Cloud Computing. We encourage students to explore beyond textbooks—through research,
+                    hackathons, internships, and industry collaborations.<br>
+                    <br>
+                    We take pride in our vibrant community of students, faculty, and alumni who continue to push
+                    boundaries and make meaningful contributions to society. Whether you're a prospective student, a
+                    parent, or a visitor, I invite you to explore the opportunities that await you here.<br>
+                    <br>
+                    Together, let’s build a future where technology empowers humanity.<br>
+                    <br>
+                    Warm regards,<br>
+                    Smt. Banashankaramma F. Lakkannavar<br>
+                    Head of the Department<br>
+                    Computer Science and Engineering<br>
+                    GOVERNMENT POLYTECHNIC MUDHOL
+
+                </p>
+            </div>
+            <div class="hod-img">
+                <div class="hod-photo" role="img" aria-label="Photo of CSE HOD"></div>
+                <h3>Smt. Banashankaramma F. Lakkannavar</h3>
+            </div>
+        </div>
+    </main>
+
+    <script src="../../js/course.js">
+    </script>
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>

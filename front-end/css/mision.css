@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.main-head{
+    font-weight: 400px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-head {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.mission h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007BFF;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.mission p {
+    text-align: center;
+    color: #555;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.vision h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007BFF;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.vision p {
+    text-align: center;
+    color: #555;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+

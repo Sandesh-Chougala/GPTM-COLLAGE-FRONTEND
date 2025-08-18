@@ -7,6 +7,10 @@
     <title>GPT-MUDHOL</title>
     <link rel="stylesheet" href="front-end/css/style.css">
     <link rel="stylesheet" href="front-end/css/responsive.css">
+    <link rel="stylesheet" href="front-end/css/nav-bar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -36,11 +40,50 @@
                 <a href="front-end/html/about.html" class="hero-button">Learn More</a>
             </div>
         </div>
+        <div class="cse-select" id="cse1">
+            <button><i class="fa-solid fa-angle-left"></i><a href="front-end/html/cse/mision-vision.html">Mision and
+                    vision</button></a>
+            <button><a href="front-end/html/cse/hos-msg.html">HOD Message</a></button>
+            <button><a href="front-end/html/cse/teachfaculty.html">Teaching Faculty</a></button>
+            <button><a href="front-end/html/cse/non-teach.html">Non-Teaching Faculty</a></button>
+            <button><a href="front-end/html/cse/gallary.html">Gallery</a></button>
+            <button><a href="front-end/html/cse/campass.html">Compass</a></button>
+        </div>
+
+        <div class="ec1" id="ec1">
+            <button><a href="front-end/html/ec/mision-vision.html">Mision and vision</button></a>
+            <button><i class="fa-solid fa-angle-left"></i><a href="front-end/html/ec/hos-msg.html">HOD
+                    Message</a></button>
+            <button><a href="front-end/html/ec/teachfaculty.html">Teaching Faculty</a></button>
+            <button><a href="front-end/html/ec/non-teach.html">Non-Teaching Faculty</a></button>
+            <button><a href="front-end/html/ec/gallary.html">Gallery</a></button>
+            <button><a href="front-end/html/ec/campass.html">Compass</a></button>
+        </div>
+
+        <div class="ce1" id="ce1">
+            <button><a href="front-end/html/ce/mision-vision.html">Mision and vision</button></a>
+            <button><a href="front-end/html/ce/hos-msg.html">HOD Message</a></button>
+            <button><i class="fa-solid fa-angle-left"></i><a href="front-end/html/ce/teachfaculty.html80">Teaching
+                    Faculty</a></button>
+            <button><a href="front-end/html/ce/non-teach.html">Non-Teaching Faculty</a></button>
+            <button><a href="front-end/html/ce/gallary.html">Gallery</a></button>
+            <button><a href="front-end/html/ce/campass.html">Compass</a></button>
+        </div>
+
+        <div class="me1" id="me1">
+            <button><a href="front-end/html/me/mision-vision.html">Mision and vision</button></a>
+            <button><a href="front-end/html/me/hos-msg.html">HOD Message</a></button>
+            <button><a href="front-end/html/me/teachfaculty.html">TeachingFaculty</a></button>
+            <button><i class="fa-solid fa-angle-left"></i><a href="front-end/html/me/non-teach.html">Non-Teaching
+                    Faculty</a></button>
+            <button><a href="front-end/html/me/gallary.html">Gallery</a></button>
+            <button><a href="front-end/html/me/campass.html">Compass</a></button>
+        </div>
         <div class="selection" id="selection">
-            <button id="cse">Computer Science and Engineering</button>
-            <button id="ec">Electronics and Communication Engineering</button>
-            <button id="ce">Civil Engineering</button>
-            <button id="me">Mechanical Engineering</button>
+            <button id="cse" onclick="cse()">Computer Science and Engineering</button>
+            <button id="ec" onclick="ece()">Electronics and Communication Engineering</button>
+            <button id="ce" onclick="ce()">Civil Engineering</button>
+            <button id="me" onclick="me()">Mechanical Engineering</button>
         </div>
         <h1 class="course-head">Course We Provide</h1>
         <div class="course box">

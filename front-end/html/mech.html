@@ -7,6 +7,11 @@
     <title>MECH</title>
     <link rel="stylesheet" href="../css/cse.css">
     <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/drop-menu.css">
+    <link rel="stylesheet" href="../css/nav-bar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -27,11 +32,49 @@
                 <a href="./contact.html" class="sub-nav text-hover">Contact-Us</a>
             </div>
         </div>
+        <div class="cse-select" id="cse1">
+            <button><i class="fa-solid fa-angle-left"></i><a href="./cse/mision-vision.html">Mision and
+                    vision</button></a>
+            <button><a href="./cse/hos-msg.html">HOD Message</a></button>
+            <button><a href="./cse/teachfaculty.html">Teaching Faculty</a></button>
+            <button><a href="./cse/non-teach.html">Non-Teaching Faculty</a></button>
+            <button><a href="./cse/gallary.html">Gallery</a></button>
+            <button><a href="./cse/campass.html">Compass</a></button>
+        </div>
+
+        <div class="ec1" id="ec1">
+            <button><a href="./ec/mision-vision.html">Mision and vision</button></a>
+            <button><i class="fa-solid fa-angle-left"></i><a href="./ec/hos-msg.html">HOD Message</a></button>
+            <button><a href="./ec/teachfaculty.html">Teaching Faculty</a></button>
+            <button><a href="./ec/non-teach.html">Non-Teaching Faculty</a></button>
+            <button><a href="./ec/gallary.html">Gallery</a></button>
+            <button><a href="./ec/campass.html">Compass</a></button>
+        </div>
+
+        <div class="ce1" id="ce1">
+            <button><a href="./ce/mision-vision.html">Mision and vision</button></a>
+            <button><a href="./ce/hos-msg.html">HOD Message</a></button>
+            <button><i class="fa-solid fa-angle-left"></i><a href="./ce/teachfaculty.html80">Teaching
+                    Faculty</a></button>
+            <button><a href="./ce/non-teach.html">Non-Teaching Faculty</a></button>
+            <button><a href="./ce/gallary.html">Gallery</a></button>
+            <button><a href="./ce/campass.html">Compass</a></button>
+        </div>
+
+        <div class="me1" id="me1">
+            <button><a href="./me/mision-vision.html">Mision and vision</button></a>
+            <button><a href="./me/hos-msg.html">HOD Message</a></button>
+            <button><a href="./me/teachfaculty.html">TeachingFaculty</a></button>
+            <button><i class="fa-solid fa-angle-left"></i><a href="./me/non-teach.html">Non-Teaching
+                    Faculty</a></button>
+            <button><a href="./me/gallary.html">Gallery</a></button>
+            <button><a href="./me/campass.html">Compass</a></button>
+        </div>
         <div class="selection" id="selection">
-            <button id="cse">Computer Science and Engineering</button>
-            <button id="ec">Electronics and Communication Engineering</button>
-            <button id="ce">Civil Engineering</button>
-            <button id="me">Mechanical Engineering</button>
+            <button id="cse" onclick="cse()">Computer Science and Engineering</button>
+            <button id="ec" onclick="ece()">Electronics and Communication Engineering</button>
+            <button id="ce" onclick="ce()">Civil Engineering</button>
+            <button id="me" onclick="me()">Mechanical Engineering</button>
         </div>
     </header>
     <main>

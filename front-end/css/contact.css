@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+main{
+    display: flex;
+}
+iframe{
+    margin: 50px;
+    margin-top: 110px;
+}
+
+.contact-info{
+    height: 750px;
+    width: 60%;
+}
+
+.adress{
+    font-size: 15px;
+    margin-left: 250px;
+    margin-top: 180px;
+}
+
+.adress p{
+    font-size: 15px;
+}
+
+.phone-number h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgba(255, 0, 0, 0.74);
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.email h2{
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(255, 0, 0, 0.74);
+    margin-left: 250px;
+    margin-top: 40px;
+}

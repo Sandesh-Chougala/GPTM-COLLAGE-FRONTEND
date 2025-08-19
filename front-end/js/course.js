@@ -72,3 +72,27 @@ function ce(){
         me1.style.display = 'none';
     }
  }
+document.addEventListener('DOMContentLoaded', function() {
+    const selection = document.getElementById('selection');   
+    const btn = document.getElementById('course');      
+
+    const cse1 = document.getElementById('cse1');
+    const ec1  = document.getElementById('ec1');
+    const ce1  = document.getElementById('ce1');
+    const me1  = document.getElementById('me1');
+
+    document.addEventListener('click', function(event) {
+        if (
+            selection &&
+            !selection.contains(event.target) &&   
+            event.target !== btn                   
+        ) {
+            selection.style.display = 'none';
+            cse1.style.display = 'none';
+            ec1.style.display = 'none';
+            ce1.style.display = 'none';
+            me1.style.display = 'none';
+        }
+    });
+});
+
